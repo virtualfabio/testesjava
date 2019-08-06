@@ -1,0 +1,8 @@
+package course.sessao3;
+
+public class Student {
+	public String nome;
+	public double notaTrimestre1;
+	public double notaTrimestre2;
+	public double notaTrimestre3;
+}

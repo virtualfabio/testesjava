@@ -1,0 +1,41 @@
+package course.sessao3;
+
+public class Conta {
+	private int numero;
+	private String nomeTitular;
+	private double saldo;
+	
+	public Conta(int numero, String nomeTitular, double saldo) {
+		super();
+		this.numero = numero;
+		this.nomeTitular = nomeTitular;
+		this.saldo = saldo;
+	}
+	
+	public Conta(int numero, String nomeTitular) {
+		super();
+		this.numero = numero;
+		this.nomeTitular = nomeTitular;
+		
+	}
+	
+	public int getNumero() {
+		return numero;
+	}
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	public String getNomeTitular() {
+		return nomeTitular;
+	}
+	public void setNomeTitular(String nomeTitular) {
+		this.nomeTitular = nomeTitular;
+	}
+	public double getSaldo() {
+		return saldo;
+	}
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
+}

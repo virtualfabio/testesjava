@@ -1,0 +1,45 @@
+package course.sessao3;
+
+public class Conta {
+	private int numero;
+	private String nomeTitular;
+	private double saldo;
+	private static double TAXA = 5.0;
+	
+	public Conta(int numero, String nomeTitular, double depositoInicial) {
+		super();
+		this.numero = numero;
+		this.nomeTitular = nomeTitular;
+		deposito(depositoInicial);
+	}
+	
+	public Conta(int numero, String nomeTitular) {
+		super();
+		this.numero = numero;
+		this.nomeTitular = nomeTitular;
+		
+	}
+	
+	public int getNumero() {
+		return numero;
+	}
+	
+	public String getNomeTitular() {
+		return nomeTitular;
+	}
+	public void setNomeTitular(String nomeTitular) {
+		this.nomeTitular = nomeTitular;
+	}
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	public void deposito(double valor) {
+		this.saldo += valor;
+	}
+	
+	public void saque(double valor) {
+		this.saldo -= valor + this.TAXA;
+	}
+	
+}

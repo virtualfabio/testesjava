@@ -1,0 +1,7 @@
+package course.sessao3;
+
+public class Conta {
+	private int numero;
+	private String nomeTitular;
+	private double saldo;
+}

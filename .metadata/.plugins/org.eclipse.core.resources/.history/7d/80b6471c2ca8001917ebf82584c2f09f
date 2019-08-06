@@ -1,0 +1,6 @@
+package course.sessao3;
+
+public class Student {
+	public String nome;
+	
+}

@@ -1,0 +1,11 @@
+package course.sessao5;
+
+import java.util.ArrayList;
+
+public class Listas {
+	public static void main(String[] args) {
+		List<String> list = ArrayList<>();
+		
+		
+	}
+}
